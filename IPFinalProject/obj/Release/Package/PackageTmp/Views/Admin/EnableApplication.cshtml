@@ -1,0 +1,23 @@
+﻿@model ErrorLoggerModel.ApplicationModel
+
+@{
+    ViewBag.Title = "EnableApplication";
+}
+
+<h2 class="title-head">Enable Application</h2>
+
+<h3>Are you sure you want to enable this?</h3>
+
+<div>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Enable" class="btn btn-default" style="background: #26A69A; color: #fff;" />
+            <button class="btn btn-primary" type="button">
+                @Html.ActionLink("Cancel", "ViewApplications")
+            </button>
+        </div>
+    }
+</div>

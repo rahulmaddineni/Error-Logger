@@ -1,0 +1,41 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+@*@{
+    var logger = new LoggingService(.. your dependencies..);
+    logger.SetLoggerName("Internal Error Page");
+    var exception = Model.Exception;
+
+    logger.Error("Exception {0} thrown in controller {1} action {2}. Exception message: {3}",
+        exception.GetType(), Model.ControllerName, Model.ActionName, exception.Message);
+
+    // if we are catching our Domain Exception, we want user to show the message.
+    var domainException = exception as DomainException;
+
+    var errorMessage = String.Empty;
+    if (domainException != null)
+    {
+        errorMessage = domainException.Message;
+    }
+}*@
+
+<html>
+<head>
+    <!-- include your CSS and JS here. -->
+</head>
+<body>
+    <h2>OOPS! Error Occurred</h2>
+   @*@if (!String.IsNullOrEmpty(errorMessage))
+    {
+        <h3>Error Message: @errorMessage</h3>
+    }*@
+
+    Sorry about this. hehehe
+</body>
+</html>

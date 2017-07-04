@@ -1,0 +1,81 @@
+﻿@model PagedList.IPagedList<ErrorLoggerModel.ApplicationModel>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "ViewApplications";
+}
+
+<h2 class="title-head">Applications</h2>
+
+@if(ViewBag.AppNotification != null)
+{
+    <div class="notification">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        @ViewBag.AppNotification 
+    </div>
+}
+
+<p>
+    <button class="btn btn-primary" type="button">
+        @Html.ActionLink("Create New", "CreateApplication") 
+    </button> 
+</p>
+<p>
+    @using (Html.BeginForm("ViewApplications", null , FormMethod.Get))
+    {
+    <p>
+        @Html.TextBox("searchString", ViewBag.CurrentFilter as string, new { placeholder = "Find By Name" })
+        <button class="btn btn-primary" type="submit" value="Search"> Search </button>
+    </p>
+    }
+</p>
+<table class="table">
+    <tr class="blue-row header">
+        <th>
+            @Html.ActionLink("Application Name", "ViewApplications", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+        </th>
+        <th>
+            @Html.ActionLink("Created Date", "ViewApplications", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+        </th>
+        <th>
+            Options
+        </th>
+    </tr>
+
+@if (Model.Count() == 0)
+{
+    <tr>
+        <td>No Records Found</td>
+    </tr>
+}
+
+@foreach (var item in Model) {
+    var appstatus = item.status;
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.appName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.createdDate)
+        </td>
+        <td>
+            @Html.ActionLink("Assign Users", "AssignUsers", new { id=item.appId }) |
+            @Html.ActionLink("Details", "ViewApplicationDetails", new { id=item.appId }) |
+            @if (item.status) {
+            @Html.ActionLink("Disable", "DisableApplication", new { id = item.appId }) 
+            } else {
+            @Html.ActionLink("Enable", "EnableApplication", new { id = item.appId }) 
+            }
+            | @Html.ActionLink("Delete", "DeleteApplication", new { id=item.appId }) |
+            @Html.ActionLink("View Logs", "GetErrorLogs", new { id = item.appId })
+        </td>
+    </tr>
+}
+
+</table>
+<br />
+    Page: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("ViewApplications",
+    new { sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, page }))

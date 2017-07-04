@@ -1,0 +1,107 @@
+﻿@model PagedList.IPagedList<ErrorLoggerModel.UserModel>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "ViewUsers";
+    String strStatus = "";
+}
+
+<h2 class="title-head">Users</h2>
+
+@*<p>
+    <button class="btn btn-primary" type="button">
+        @Html.ActionLink("Create New", "AddUser", "User")
+    </button> 
+</p>*@
+
+<p>
+    @using (Html.BeginForm("ViewUsers", null, FormMethod.Get))
+    {
+    <p>
+        @Html.TextBox("searchString", ViewBag.CurrentFilter as string, new { style = "width: 20%;", placeholder = "Find By Name, Email, Contact" })
+        <button class="btn btn-primary" type="submit" value="Search"> Search </button>
+    </p>
+    }
+</p>
+
+<table class="table">
+    <tr class="blue-row header">
+        <th>
+            @Html.ActionLink("Name", "ViewUsers", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Contact
+        </th>
+        <th>
+            @Html.ActionLink("Last Login", "ViewUsers", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+        </th>
+        <th>
+            Status
+        </th>
+        <th>
+            Options
+        </th>
+    </tr>
+
+@if (Model.Count() == 0)
+{
+    <tr>
+        <td>No Records Found</td>
+    </tr>
+}
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.firstName) @Html.DisplayFor(modelItem => item.lastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lastLoginDate)
+        </td>
+        <td>
+            @if (item.status)
+
+            {
+                strStatus = "Active";
+            }
+            else
+            {
+                strStatus = "InActive";
+            }
+             
+             @strStatus
+        </td>
+        <td>
+            @if (item.status)
+            {
+                @Html.ActionLink("Disable", "DisableUser", new { id = item.userId })
+            }
+            else
+            {
+                @Html.ActionLink("Enable", "EnableUser", new { id = item.userId })
+            }
+            | @Html.ActionLink("Delete", "DeleteUser", new { id=item.userId })
+        </td>
+    </tr>
+}
+
+</table>
+
+<br />
+    Page: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("ViewUsers",
+    new { userId = ViewBag.userId, appId = ViewBag.appId, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, page }))
+
+

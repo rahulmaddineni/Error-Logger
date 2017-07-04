@@ -1,0 +1,70 @@
+﻿/* The notification message box */
+.notification {
+    padding: 20px;
+    background-color: #2196F3; /* Blue */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+/* Title Style*/
+.title-head{
+    color: #0288D1
+}
+
+/* Unused*/
+html,
+body,
+.view {
+    height: 100vh;
+}
+
+.view {
+    background: url("Images/IndexBackground.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.blue-box{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    padding: 5px !important;
+    border-right: 0px !important;
+    margin: 0px 2px;
+    font-size: 16px;
+    background: #00A1F1 !important;
+    color: #fff !important;
+    border: 0px !important;
+}
+
+.red-box{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    padding: 5px !important;
+    border-right: 0px !important;
+    margin: 0px 2px;
+    font-size: 16px;
+    background: #F65314 !important;
+    color: #fff !important;
+    border: 0px !important;
+}

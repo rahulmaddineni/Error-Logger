@@ -1,0 +1,22 @@
+﻿@model ErrorLoggerModel.UserModel
+
+@{
+    ViewBag.Title = "DisableUser";
+}
+
+<h2>DisableUser</h2>
+
+<h3>Are you sure you want to disable the user?</h3>
+
+<div>
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Disable" class="btn btn-default" style="background: #EF5350; color: #fff;" />
+            <button class="btn btn-primary" type="button">
+                @Html.ActionLink("Cancel", "ViewUsers")
+            </button>
+        </div>
+    }
+</div>

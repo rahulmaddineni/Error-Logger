@@ -1,0 +1,69 @@
+﻿@model PagedList.IPagedList<ErrorLoggerModel.ErrorLogModel>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "GetErrorLogs";
+    var appName = ViewBag.AppName;
+}
+
+<h2 class="title-head">Error Logs - @($"{appName}")</h2>
+
+@using (Html.BeginForm("GetErrorLogs", null, FormMethod.Get))
+{
+    <p>
+        @Html.TextBox("searchString", ViewBag.CurrentFilter as string, new { placeholder = "Find By Name" })
+        <button class="btn btn-primary" type="submit" value="Search"> Search </button>
+    </p>
+}
+
+<table class="table">
+    <tr class="blue-row header">
+        <th>
+            @Html.ActionLink("Time", "GetErrorLogs", new { id = ViewBag.appId, sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+        </th>
+        <th>
+            Exception
+        </th>
+        <th>
+            @Html.ActionLink("Description", "GetErrorLogs", new { id = ViewBag.appId, sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+        </th>
+        <th>
+            @Html.ActionLink("Log Level", "GetErrorLogs", new { id = ViewBag.appId, sortOrder = ViewBag.LogSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.errorTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.exception)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.errorDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.logLevel)
+            </td>
+        </tr>
+    }
+</table>
+
+    Page: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("GetErrorLogs",
+    new { id = ViewBag.appId, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, page }))
+
+
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1">
+        <img class="img-responsive" src="@Url.Action("GetBarChart")" alt="Bar Graph" style="margin-left: auto; margin-right: auto;" />
+    </div>
+    <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-2">
+        <img class="img-responsive" src="@Url.Action("GetChart")" alt="Pie Chart" style="margin-left: auto; margin-right: auto;" />
+    </div>
+</div>

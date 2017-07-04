@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ErrorLoggerModel.UserModel>
+
+@{
+    ViewBag.Title = "AssignUsers";
+}
+
+<h2 class="title-head">Assign Users</h2>
+
+<table class="table">
+    <tr class="blue-row header">
+        <th>
+            Name
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Options
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.firstName) @Html.DisplayFor(modelItem => item.lastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.ActionLink("Assign", "AssignUserToApp", new { appId = ViewBag.appId, userId=item.userId })
+        </td>
+    </tr>
+}
+
+</table>
+
+<br />
+<div>
+    @Html.ActionLink("Back to List", "ViewApplications")
+</div>

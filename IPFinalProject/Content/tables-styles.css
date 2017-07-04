@@ -1,0 +1,50 @@
+﻿/* Admin Panel*/
+.panel-title {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.panel-body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn a{
+    color : #fff;
+    text-decoration: none;
+}
+
+.table {
+    margin: 0 0 40px 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    display: table;
+}
+
+.blue-row {
+    display: table-row;
+    background: #f6f6f6;
+    /*&:nth-of-type(odd) background: #e9e9e9*/
+    &.header;
+    font-weight: 900;
+    color: #fff;
+    background: #2980b9;
+}
+
+.invert-badge{
+    background: #9E9E9E;
+    color: #E0E0E0;
+}
+
+.textcentercontainer{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a.actionlink-style{
+    text-decoration: none;
+    font-weight: 900;
+    color: #fff;
+}

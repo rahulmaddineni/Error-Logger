@@ -1,0 +1,61 @@
+﻿@model IPFinalProject.Models.IndexViewModel
+@{
+    ViewBag.Title = "Account Settings";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 col-md-offset-1">
+            <img class="img-responsive" src="~/Content/Images/boycompyuter.png" alt="User Image" />
+        </div>
+        <div class="col-xs-6">
+            <table class="table" style="border-style:solid; border-color:#42A5F5; margin-top:10%">
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        @ViewBag.UserName
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        @ViewBag.UserEmail
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone
+                    </td>
+                    <td>
+                        @ViewBag.UserPhone
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password
+                    </td>
+                    <td>
+                        @if (Model.HasPassword)
+                        {
+                            @Html.ActionLink("Change your password", "ChangePassword")
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Create", "SetPassword")
+                        }
+                    </td>
+                </tr>
+            </table> 
+        </div>
+    </div>
+</div>
+
+

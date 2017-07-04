@@ -1,0 +1,15 @@
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\TestClient.exe.config
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\TestClient.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\TestClient.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\DLLLibrary.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\CommonCode.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\DLLLibrary.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\CommonCode.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\obj\Debug\TestClient.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\TestClient\obj\Debug\TestClient.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\ErrorLogger\TestClient\bin\Debug\TestClient.exe.config
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\ErrorLogger\TestClient\obj\Debug\TestClient.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\ErrorLogger\TestClient\obj\Debug\TestClient.pdb

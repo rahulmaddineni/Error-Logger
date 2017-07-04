@@ -1,0 +1,23 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+<html>
+<head>
+    <!-- include your CSS and JS here. -->
+</head>
+<body>
+    <h2>OOPS! Error Occurred</h2>
+   @*@if (!String.IsNullOrEmpty(errorMessage))
+    {
+        <h3>Error Message: @errorMessage</h3>
+    }*@
+
+    Sorry about this.
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿@model ICollection<String>
+@{
+    ViewBag.Title = "Index";
+}
+@Styles.Render("~/Content/css")
+
+<div class="container" style="height: 60vh; margin-top:20vh">
+
+    <div class="row">
+
+        <div class="col-xs-6 col-xs-offset-3 col-md-3 col-md-offset-2">
+
+            <div class="panel status panel-primary">
+                <div class="panel-heading">
+                   <h1 class="panel-title text-center"> @Html.ActionLink("Applications", "ViewApplications") </h1>
+                </div>
+                <div class="panel-body text-center">
+                    <strong><span class="badge">@Model.ElementAt(0)</span></strong>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-xs-6 col-xs-offset-3 col-md-3 col-md-offset-2">
+
+            <div class="panel status panel-primary">
+                <div class="panel-heading">
+                    <h1 class="panel-title text-center"> @Html.ActionLink("Users", "ViewUsers") </h1>
+                </div>
+                <div class="panel-body text-center">
+                    <strong><span class="badge">@Model.ElementAt(1)</span></strong>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+@*<link rel="stylesheet" href="~/Content/font-awesome.css" />
+
+<div class="container" style="height: 60vh; margin-top:20vh">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3 col-md-3 col-md-offset-2">
+            <div class="blue-box">
+                <div class="fa fa-4x fa-bars" style="vertical-align: middle;"></div>
+                <div class="panel-heading">
+                    <h1 class="panel-title text-center"> @Html.ActionLink("Applications", "ViewApplications") </h1> <strong><span class="badge">@Model.ElementAt(0)</span></strong>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-xs-offset-3 col-md-3 col-md-offset-2">
+            <div class="red-box">
+                <div class="fa fa-4x fa-user"></div>
+                <div class="panel-heading">
+                    <h1 class="panel-title text-center"> @Html.ActionLink("Users", "ViewUsers") </h1> <strong><span class="badge">@Model.ElementAt(1)</span></strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>*@

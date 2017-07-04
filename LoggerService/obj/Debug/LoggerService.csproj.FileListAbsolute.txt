@@ -1,0 +1,335 @@
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\ApplicationInsights.config
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\csc.exe
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\System.Collections.Immutable.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\System.Reflection.Metadata.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\vbc.exe
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe.config
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.dll.config
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.pdb
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Antlr3.Runtime.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.Web.Infrastructure.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Newtonsoft.Json.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Helpers.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Mvc.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Optimization.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Razor.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\WebGrease.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Newtonsoft.Json.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Helpers.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Mvc.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Optimization.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Razor.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.xml
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\Antlr3.Runtime.pdb
+G:\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.csprojResolveAssemblyReference.cache
+G:\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.pdb
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\CommonCode.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\LoadersandLogic.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\CommonCode.pdb
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\LoadersandLogic.pdb
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\ErrorLoggerModel.dll
+G:\Sem4\IP\IPFinalProject\LoggerService\bin\ErrorLoggerModel.pdb
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\ApplicationInsights.config
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\csc.exe
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\System.Collections.Immutable.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\vbc.exe
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe.config
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.dll.config
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.pdb
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Antlr3.Runtime.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\CommonCode.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\LoadersandLogic.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.Web.Infrastructure.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Newtonsoft.Json.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Helpers.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Mvc.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Optimization.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Razor.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\WebGrease.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\ErrorLoggerModel.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\CommonCode.pdb
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\LoadersandLogic.pdb
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Newtonsoft.Json.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Helpers.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Mvc.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Optimization.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Razor.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.xml
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\Antlr3.Runtime.pdb
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\ErrorLoggerModel.pdb
+D:\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.csprojResolveAssemblyReference.cache
+D:\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.pdb
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\EntityFramework.dll
+D:\Sem4\IP\IPFinalProject\LoggerService\bin\EntityFramework.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\csc.exe
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\System.Collections.Immutable.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\System.Reflection.Metadata.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\vbc.exe
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\ApplicationInsights.config
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe.config
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.dll.config
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.pdb
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Antlr3.Runtime.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\CommonCode.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\LoadersandLogic.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.Web.Infrastructure.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Newtonsoft.Json.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Helpers.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Mvc.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Optimization.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Razor.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\WebGrease.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\ErrorLoggerModel.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\EntityFramework.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\CommonCode.pdb
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\LoadersandLogic.pdb
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Newtonsoft.Json.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Helpers.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Mvc.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Optimization.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Razor.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\Antlr3.Runtime.pdb
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\ErrorLoggerModel.pdb
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\bin\EntityFramework.xml
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.csprojResolveAssemblyReference.cache
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.dll
+D:\Studies\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\ApplicationInsights.config
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\csc.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\vbc.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\LoggerService.dll.config
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\LoggerService.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\LoggerService.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Antlr3.Runtime.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\CommonCode.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\LoadersandLogic.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Newtonsoft.Json.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Helpers.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Http.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Mvc.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Optimization.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Razor.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.WebPages.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\WebGrease.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\ErrorLoggerModel.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\EntityFramework.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\CommonCode.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\LoadersandLogic.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Newtonsoft.Json.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Helpers.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Http.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Mvc.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Optimization.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.Razor.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.WebPages.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\Antlr3.Runtime.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\ErrorLoggerModel.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\bin\EntityFramework.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\obj\Debug\LoggerService.csprojResolveAssemblyReference.cache
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\obj\Debug\LoggerService.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IPFinalProject\LoggerService\obj\Debug\LoggerService.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.csprojResolveAssemblyReference.cache
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\ApplicationInsights.config
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\csc.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\vbc.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.dll.config
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\LoggerService.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Antlr3.Runtime.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\CommonCode.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\ErrorLoggerModel.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\LoadersandLogic.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Newtonsoft.Json.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Helpers.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Mvc.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Optimization.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Razor.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\WebGrease.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\CommonCode.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\ErrorLoggerModel.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\LoadersandLogic.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.Web.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Newtonsoft.Json.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Net.Http.Formatting.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Helpers.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Http.WebHost.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Mvc.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Optimization.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.Razor.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\Antlr3.Runtime.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\obj\Debug\LoggerService.pdb
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\EntityFramework.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\EntityFramework.SqlServer.dll
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\EntityFramework.xml
+C:\Users\Rahul\Desktop\G Partition\Sem4\IP\IPFinalProject\LoggerService\bin\EntityFramework.SqlServer.xml

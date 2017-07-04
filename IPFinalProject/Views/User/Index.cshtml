@@ -1,0 +1,57 @@
+﻿
+@model PagedList.IPagedList<ErrorLoggerModel.ApplicationModel>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+    var userName = ViewBag.UserName;
+    var uId = ViewBag.UserId;
+}
+
+
+@if (!ViewBag.UserStatus)
+{
+    <p>User Disabled, Contact Admin</p>
+}
+
+<br />
+<h1 class="title-head">Applications</h1>
+<br />
+@using (Html.BeginForm("Index", null, FormMethod.Get))
+{
+
+    <p>
+        @Html.TextBox("searchString", ViewBag.CurrentFilter as string, new { placeholder = "Find By Name" })
+        <button class="btn btn-primary" type="submit" value="Search"> Search </button>
+    </p>
+}
+<table class="table">
+    <tr class="blue-row header">
+        <th>
+            @Html.ActionLink("App Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })  <span class="badge invert-badge">@(Model.Count()*Model.PageCount)</span>
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.appName)
+            </td>
+            <td>
+                @Html.ActionLink("View", "GetErrorLogs", new { userId = uId, appId = item.appId }) 
+            </td>
+        </tr>
+    }
+
+</table>
+<br />
+   Page: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+    new { sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, page }))
+
+

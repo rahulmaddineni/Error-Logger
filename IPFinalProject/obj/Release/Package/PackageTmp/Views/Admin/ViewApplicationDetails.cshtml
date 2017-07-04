@@ -1,0 +1,67 @@
+﻿@model ErrorLoggerModel.AppAndUserModel
+
+@{
+    ViewBag.Title = "ViewApplicationDetails";
+}
+
+<h2 class="title-head">Application Details</h2>
+
+<div>
+    <hr />
+    <table class="table">
+        <tr class="blue-row header">
+            <th>
+                Content
+            </th>
+            <th>
+                Details
+            </th>
+        </tr>
+        <tr>
+            <td>
+                App Name
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.app.appName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Created Date
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.app.createdDate)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Application Status
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.app.status)
+            </td>
+        </tr>
+    </table>
+
+    <table class="table">
+        <tr class="blue-row header">
+            <th>
+                Assigned Users
+            </th>
+            <th>
+
+            </th>
+        </tr>
+        @foreach (var item in Model.users)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.firstName)  @Html.DisplayFor(modelItem => item.lastName)</td>
+                <td>@Html.DisplayFor(modelItem => item.email)</td>
+            </tr>
+        }
+    </table>
+</div>
+
+<p>
+    @Html.ActionLink("Back to List", "ViewApplications")
+</p>

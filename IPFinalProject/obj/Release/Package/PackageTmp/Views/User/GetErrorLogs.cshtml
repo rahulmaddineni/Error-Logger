@@ -1,0 +1,90 @@
+﻿
+@model PagedList.IPagedList<ErrorLoggerModel.ErrorLogModel>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "GetErrorLogs";
+}
+
+<h2 class="title-head">Error Logs - @($"{ViewBag.AppName}")</h2>
+
+    @if (ViewBag.RestrictedAccess)
+    {
+    <p>Dont try to access other's data</p>
+    }
+   
+        @*<p>
+            <button class="btn btn-primary" type="button">
+                @Html.ActionLink("Create New", "CreateError", new { appId = ViewBag.appId })
+
+            </button>
+        </p>*@
+        <p>
+            @using (Html.BeginForm("GetErrorLogs", "User", new { userId = ViewBag.userId, appId = ViewBag.appId }, FormMethod.Get, new { enctype = "multipart/form-data" }))
+            {
+
+            <p>
+                @Html.TextBox("searchString", ViewBag.CurrentFilter as string , new { placeholder = "Find By Name"})
+                @Html.TextBox("userId", (int)ViewBag.userId , new { style = "display: none;" })
+                @Html.TextBox("appId", (int)ViewBag.appId, new { style = "display: none;" })
+                <button class="btn btn-primary" value="Search">Search</button>
+            </p>
+            }
+            </p>
+            <table class="table">
+                <tr class="blue-row header">
+                    <th>
+                        @Html.ActionLink("Time", "GetErrorLogs", new { userId = ViewBag.userId, appId = ViewBag.appId, sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Description", "GetErrorLogs", new { userId = ViewBag.userId, appId = ViewBag.appId, sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+                    </th>
+                    <th>
+                        Exception
+                    </th>
+                    <th>
+                        @Html.ActionLink("Log Level", "GetErrorLogs", new { userId = ViewBag.userId, appId = ViewBag.appId, sortOrder = ViewBag.LogSortParm, currentFilter = ViewBag.CurrentFilter }, new { style = "text-decoration: none;font - weight: 900;color: #fff;" })
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.errorTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.errorDescription)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.exception)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.logLevel)
+                        </td>
+                    </tr>
+                }
+
+            </table>
+
+
+    Page: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("GetErrorLogs",
+    new { userId = ViewBag.userId, appId = ViewBag.appId, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, page }))
+
+
+
+    @if (!ViewBag.RestrictedAccess)
+    {
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1">
+                <img class="img-responsive" src="@Url.Action("GetBarChart")" alt="Bar Graph" style="margin-left: auto; margin-right: auto;" />
+            </div>
+            <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-2">
+                <img class="img-responsive" src="@Url.Action("GetChart")" alt="Pie Chart" style="margin-left: auto; margin-right: auto;" />
+            </div>
+        </div>
+}
