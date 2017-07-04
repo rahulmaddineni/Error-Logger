@@ -16,6 +16,9 @@ The system consists of 3 parts:
 
 - Finally, when the developer is interested in reviewing logged error messages, they would log into the website and access all of the error   logs that were saved in the DB.
  
+#### Data Flow
+![Data Flow](https://github.com/rahulmaddineni/Error-Logger/blob/master/Screenshots/Data%20Flow.png)
+
 ## Running the application
 
 ### Note
